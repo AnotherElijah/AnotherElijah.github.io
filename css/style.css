@@ -973,5 +973,6 @@ footer.fh5co-footer .social-links li a {
   }
   .menu-links li a.active{
     background-image: unset;
+    margin-left: -5px;
   }
 }
