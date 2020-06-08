@@ -712,7 +712,7 @@ a {
 }
 .fh5co-news h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 .fh5co-news h5 {
   font-family: "Larsseit-Medium";
@@ -975,4 +975,18 @@ footer.fh5co-footer .social-links li a {
     background-image: unset;
     margin-left: -5px;
   }
+}
+.card-img-top{
+  max-height: 195px;
+}
+img.card-img-top.uce{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last-update{
+  color: #ff7f62;
+}
+.project-links {
+  font-size: 32px;
 }
