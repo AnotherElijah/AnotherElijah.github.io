@@ -85,9 +85,14 @@ h2::before, h2::after, .fh5co-about-us .owl-carousel1 .owl-dots .active span, .r
 nav.fixed-top {
   padding-top: 0;
 }
-
+nav.navbar{
+  transition: background-color 0.4s ease-in-out;
+}
+.fill-bg{
+  background-color: rgba(18, 111, 225, 0.57);
+}
 .header .fixed-top {
-  position: absolute;
+  position: fixed;
 }
 .header .container {
   border-bottom: 1px solid rgba(255, 255, 255, 0.341);
@@ -990,4 +995,10 @@ img.card-img-top.uce{
 }
 .project-links {
   font-size: 32px;
+}
+.fa-github:hover{
+  color:#0368d4!important;
+}
+.fa-globe:hover{
+  color: #d66a52 !important;
 }

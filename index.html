@@ -34,7 +34,7 @@
             <div id="my-nav" class="collapse navbar-collapse flex-row justify-content-between mx-auto">
 
                 <ul class="navbar-nav logo-desktop">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#"><h3 style="font-family: 'Space Mono', monospace; color: white;">I.
                             Poletajev</h3></a>
                     </li>
@@ -42,13 +42,13 @@
 
                 <ul class="navbar-nav float-right menu-links">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" id="homeLink" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#works">Works</a>
+                        <a class="nav-link" id="worksLink" href="#works">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About me</a>
+                        <a class="nav-link" id="aboutLink" href="#about-us">About me</a>
                     </li>
                 </ul>
             </div>
@@ -138,7 +138,26 @@
                         </div>
                     </div>
                 </div>
-
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/works/5.PNG" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <div class="pb-2 row justify-content-center">
+                                <a href="https://github.com/AnotherElijah/slot-game"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="http://slot-game-555.s3-website.eu-north-1.amazonaws.com"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
+                            </div>
+                            <h5>HTML5 slot game</h5>
+                            <p>Just personal challenge: HTML5 Slot game with simplified rules.</p>
+                            <p class="card-text">Technologies used:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>CSS</li>
+                                <li>Babel</li>
+                            </ul>
+                            </p>
+                            <span class="last-update">Latest update on July 2020</span>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <div class="card text-center"><img class="card-img-top" src="images/works/4.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
@@ -262,6 +281,8 @@
 <script src="owl-carousel/owl.carousel.min.js"></script>
 <script src="js/isotope-docs.min.js?6"></script>
 <script src="js/main.js"></script>
+<script src="js/scroll.js" type="module"></script>
+<script src="js/nav-effect.js" type="module"></script>
 </body>
 
 </html>
