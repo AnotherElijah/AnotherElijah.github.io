@@ -61,20 +61,16 @@
                 <h1 class="text-uppercase text-white text-center">Ilja Poletajev</h1>
                 <h3 class="text-white-50 text-center">Front-end developer</h3>
                 <ul class="p-3 navbar-nav float-left social-links flex-row">
-                    <li class="nav-item">
+                    <li class="nav-item m-2">
                         <a class="nav-link" href="mailto:iljapoletajev89@gmail.com"><i class="fas fa-at"></i></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-2">
                         <a class="nav-link" href="skype:live:i.poletajev?chat"><i class="fab fa-skype"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/ilja-poletajev-02930b117"
-                           target="popup"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/AnotherElijah" target="popup"><i
+                    <li class="nav-item m-2"><a class="nav-link" href="https://github.com/AnotherElijah" target="popup"><i
                             class="fab fa-github"></i></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/ilja.poletajev.3"
+                    <li class="nav-item m-2"><a class="nav-link" href="https://www.facebook.com/ilja.poletajev.3"
                                             target="popup"><i
                             class="fab fa-facebook-f"></i></a>
                     </li>
@@ -98,11 +94,18 @@
                     <div class="card text-center"><img class="card-img-top uce" src="images/works/2.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
                             <div class="pb-2 row justify-content-center">
-                                <a href="https://github.com/AnotherElijah/urbanculture"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="https://github.com/AnotherElijah/urbanculture"><i class="fab fa-github project-links text-primary pr-2 pl-2 git-hover"></i></a>
                                 <a href="https://uceagency.com/"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
                             </div>
                             <h5>UCE Musical booking agency</h5>
-                            <p>My custom theme for WordPress</p>
+                            <p>My custom WordPress theme for musical agency from Estonia.</p>
+                            <a data-toggle="collapse" href="#collapse-1">Detailed description</a>
+                            <p id="collapse-1" style="background: #0056b3;" class="collapse text-white p-3">As this is the one person project, design and all the front-end developed by me
+                                (except the blocks where all the needs covered by WordPress plugins).
+                                Main page carousel made with Slider Revolution plugin. "Shows" section made using Events Manager plugin.
+                                Some php code for "Shows" section was adapted to needs of this project.
+                                Theme made using Elementor builder.
+                            </p>
                             <p class="card-text">Technologies used:
                             <ul>
                                 <li>JavaScript, React</li>
@@ -120,12 +123,20 @@
                     <div class="card text-center"><img class="card-img-top" src="images/works/3.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
                             <div class="pb-2 row justify-content-center">
-                                <a href="https://github.com/AnotherElijah/colander"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="https://github.com/AnotherElijah/colander"><i class="fab fa-github project-links text-primary pr-2 pl-2 git-hover"></i></a>
                                 <a href="http://colander-app.herokuapp.com/"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
                             </div>
                             <h5>Spotify application</h5>
                             <p>Mainly works with Spotify API. Allows to get user's favorite songs, and generate
                                 playlists with parameters specified by user, regarding to his favors.</p>
+                            <a data-toggle="collapse" href="#collapse-2">Detailed description</a>
+                            <p id="collapse-2" style="background: #0056b3;" class="collapse text-white p-3">
+                                All the front-end part and design made by me. 90% of the code was written in 2018, that's why some of the solutions and approach in general seem to be outdated these days (2020).
+                                For example - the project doesn't contain any hooks for functional components. All the state management exists in the class components only.
+                                These days, I would definitely use React Hooks with functional components instead of class components for a local state.
+                                <br>
+                                Used Spotify API for authentication and user data
+                            </p>
                             <p class="card-text">Technologies used:
                             <ul>
                                 <li>JavaScript, React, Node</li>
@@ -142,11 +153,16 @@
                     <div class="card text-center"><img class="card-img-top" src="images/works/5.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
                             <div class="pb-2 row justify-content-center">
-                                <a href="https://github.com/AnotherElijah/slot-game"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="https://github.com/AnotherElijah/slot-game"><i class="fab fa-github project-links text-primary pr-2 pl-2 git-hover"></i></a>
                                 <a href="http://slot-game-555.s3-website.eu-north-1.amazonaws.com"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
                             </div>
                             <h5>HTML5 slot game</h5>
                             <p>Just personal challenge: HTML5 Slot game with simplified rules.</p>
+                            <a data-toggle="collapse" href="#collapse-3">Detailed description</a>
+                            <p id="collapse-3" style="background: #0056b3;" class="collapse text-white p-3">
+                                My first try to build HTML5 slot game. On the right side you will find the debug mode that allows to get needed combination.
+                                Babel used to convert ES6 JavaScript code to ES5 for Internet Explorer compatibility.
+                            </p>
                             <p class="card-text">Technologies used:
                             <ul>
                                 <li>JavaScript</li>
@@ -162,11 +178,16 @@
                     <div class="card text-center"><img class="card-img-top" src="images/works/4.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
                             <div class="pb-2 row justify-content-center">
-                                <a href="https://github.com/AnotherElijah/adaptive-slider"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="https://github.com/AnotherElijah/adaptive-slider"><i class="fab fa-github project-links text-primary pr-2 pl-2 git-hover"></i></a>
                                 <a href="http://dental-landing.s3-website.eu-north-1.amazonaws.com/"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
                             </div>
                             <h5>JavaScript carousel module</h5>
                             <p>Fully reusable and customizable JavaScript carousel module</p>
+                            <a data-toggle="collapse" href="#collapse-4">Detailed description</a>
+                            <p id="collapse-4" style="background: #0056b3;" class="collapse text-white p-3">
+                                Carousel modules build with JavaScript classes. Carousel contains settings object that allows to set number of pictures in the visible area, and breakpoints for different resolutions.
+                                Babel used to convert ES6 JavaScript code to ES5 for Internet Explorer compatibility.
+                            </p>
                             <p class="card-text">Technologies used:
                             <ul>
                                 <li>JavaScript</li>
@@ -181,13 +202,13 @@
                     <div class="card text-center"><img class="card-img-top" src="images/works/1.PNG" alt="">
                         <div class="card-body text-left pr-0 pl-0">
                             <div class="pb-2 row justify-content-center">
-                                <a href="https://github.com/AnotherElijah/photographer-portfolio"><i class="fab fa-github project-links text-primary pr-2 pl-2"></i></a>
+                                <a href="https://github.com/AnotherElijah/photographer-portfolio"><i class="fab fa-github project-links text-primary pr-2 pl-2 git-hover"></i></a>
                                 <a href="http://alexmurex-portfolio.s3-website.eu-north-1.amazonaws.com/"><i class="fas fa-globe project-links text-danger pr-2 pl-2"></i></a>
                             </div>
                             <h5>VUE JS portfolio page</h5>
                             <p class="card-text">Technologies used:
                             <ul>
-                                <li> JavaScript, Vue JS</li>
+                                <li>JavaScript, Vue JS</li>
                                 <li>CSS, SCSS</li>
                                 <li>API: www.api.unsplash.com<br/>(for gallery)</li>
                             </ul>
